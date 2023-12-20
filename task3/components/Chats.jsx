@@ -26,7 +26,7 @@ export default function ChatsScreen({route, navigation}) {
         const ref = await firebase
           .app()
           .database(
-            'https://chatapp-d1dc6-default-rtdb.asia-southeast1.firebasedatabase.app/',
+            'Your firebase realtime db link'
           )
           .ref(`Chats/${i[1]}`)
           .orderByKey()
