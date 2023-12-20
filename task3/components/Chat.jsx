@@ -34,7 +34,6 @@ export default function ChatScreen({route,navigation}) {
     }
   })
  
-    // const user = auth().currentUser.email.slice(0,4)
     const fetchData = async () => {
         const snapshot = await  firebase.app()
         .database('https://chatapp-d1dc6-default-rtdb.asia-southeast1.firebasedatabase.app/')
