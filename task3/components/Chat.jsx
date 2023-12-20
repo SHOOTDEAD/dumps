@@ -36,7 +36,7 @@ export default function ChatScreen({route,navigation}) {
  
     const fetchData = async () => {
         const snapshot = await  firebase.app()
-        .database('https://chatapp-d1dc6-default-rtdb.asia-southeast1.firebasedatabase.app/')
+        .database('Your firebase realtime db link')
         .ref(`Chats/${Target}`).once("value")
         let data = snapshot.val()
         delete data.members
@@ -63,7 +63,7 @@ export default function ChatScreen({route,navigation}) {
   
     const updateMessage = async() =>{
         const ref = await  firebase.app()
-        .database('https://chatapp-d1dc6-default-rtdb.asia-southeast1.firebasedatabase.app/')
+        .database('Your firebase realtime db link')
         .ref(`Chats/${Target}`)
         if (chat.trim() !== ""){
         const currentTime = new Date().toISOString();
