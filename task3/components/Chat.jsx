@@ -155,51 +155,29 @@ export default function ChatScreen({route,navigation}) {
       marginRight: 8,
       color:"black"
     },
-    sendButton: {
-      padding: 10,
-      borderRadius: 20,
-      backgroundColor: 'blue',
-    },
-    sendButtonText: {
+    text: {
       color: 'white',
+      fontSize: 20,
     },
-    button: {
-            flex: 1,
-            justifyContent: 'center',
-            alignItems: 'center',
-            marginLeft: 8, 
-            marginRight:5,
-            height: 50,
-            backgroundColor: 'black', 
-            borderWidth: 5,
-            borderColor: 'gray',
-          },
-          text: {
-            color: 'white',
-            fontSize: 20,
-          },
-          hiddenContainer: {
-            height: 100, 
-          },
-          messageContainer: {
-            flexDirection: 'row',
-            marginBottom: 8,
-          },
-          userMessageContainer: {
-            justifyContent: 'flex-end',
-          },
-          incomingMessageContainer: {
-            justifyContent: 'flex-start',
-          },
-          userMessage: {
-            color: 'black',
-            fontSize: 20,
-            textAlign: 'right', 
-          },
-          incomingMessage: {
-            color: 'black',
-            fontSize: 20,
-            textAlign: 'left', 
-          },
+    messageContainer: {
+      flexDirection: 'row',
+      marginBottom: 8,
+    },
+    userMessageContainer: {
+      justifyContent: 'flex-end',
+    },
+    incomingMessageContainer: {
+      justifyContent: 'flex-start',
+    },
+    userMessage: {
+      color: 'black',
+      fontSize: 20,
+      textAlign: 'right', 
+    },
+    incomingMessage: {
+      color: 'black',
+      fontSize: 20,
+      textAlign: 'left', 
+    },
   });
   
