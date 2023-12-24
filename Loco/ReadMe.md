@@ -6,7 +6,7 @@ Make sure you have Node.js and npm installed on your machine. Then, install the 
 
 ```bash
 npm install -g react-native
-```
+```bash
 
 ## Step 2: Create a New React Native Project
 
