@@ -39,6 +39,7 @@ Replace the  package.json file with package.json from repository.
 ## Step 7: Edit AndroidManifest.xml
 
 Add these two statement to AndroidManifest.xml file
+Path:android/app/src/main/AndroidManifest.xml
 
 ```bash
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
