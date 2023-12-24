@@ -41,7 +41,7 @@ export default function ProfileScreen({route, navigation}) {
           async position => {
             const {latitude, longitude} = position.coords;
             try {
-              const apiKey = 'AIzaSyCJZbn12GjJQKCYekyytg-wQNF1_G8ej6I';
+              const apiKey = 'Your Google API Key';
               const response = await fetch(
                 `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=${apiKey}`,
               );
@@ -130,7 +130,7 @@ export default function ProfileScreen({route, navigation}) {
             async position => {
               const {latitude, longitude} = position.coords;
               try {
-                const apiKey = 'AIzaSyCJZbn12GjJQKCYekyytg-wQNF1_G8ej6I';
+                const apiKey = 'Your Google API Key';
                 const response = await fetch(
                   `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=${apiKey}`,
                 );
