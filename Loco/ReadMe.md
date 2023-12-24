@@ -14,7 +14,7 @@ Create a new React Native project using the following command. Replace YourProje
 
 ```bash
 npx react-native init YourProjectName
-```bash
+```
 
 ## Step 3: Navigate to the Project Directory
 
