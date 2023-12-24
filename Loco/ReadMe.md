@@ -22,7 +22,7 @@ Change to the newly created project directory:
 
 ```bash
 cd YourProjectName
-```bash
+```
 
 ## Step 4: Replace App.js File
 
@@ -44,7 +44,7 @@ If the project name is not Loco change name in package.json file
 {
   "name": "Your Project Name",
   ......
-```bash
+```
 Save the changes to the package.json file.
 
 ## Step 8: Install Dependencies
@@ -52,7 +52,7 @@ Run the following command to install the updated dependencies:
 
 ```bash
 npm install
-```bash
+```
 
 This command will read the updated package.json file and install the required dependencies for your project.
 
@@ -63,4 +63,4 @@ Run your React Native app on an emulator or a physical device. Make sure your em
 npx react-native run-android  # for Android
 # or
 npx react-native run-ios      # for iOS
-```bash
+```
