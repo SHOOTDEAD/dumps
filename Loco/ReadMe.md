@@ -38,12 +38,17 @@ Replace the  package.json file with package.json from repository.
 
 ## Step 7: Edit AndroidManifest.xml
 
-Add these two statement to AndroidManifest.xml file
+Add these two statement to AndroidManifest.xml file and change android:windowSoftInputMode to adjustPan inside acitivity
 Path:android/app/src/main/AndroidManifest.xml
 
 ```bash
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+ <activity
+        ...........
+        android:windowSoftInputMode="adjustPan"
+        >
 ```
 
 ## Step 8: Save the Changes
