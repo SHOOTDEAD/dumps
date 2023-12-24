@@ -36,7 +36,16 @@ Download and add assets and components folders
 
 Replace the  package.json file with package.json from repository.
 
-## Step 7: Save the Changes
+## Step 7: Edit AndroidManifest.xml
+
+Add these two statement to AndroidManifest.xml file
+
+```bash
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+```
+
+## Step 8: Save the Changes
 
 If the project name is not Loco change name in package.json file
 
@@ -47,7 +56,7 @@ If the project name is not Loco change name in package.json file
 ```
 Save the changes to the package.json file.
 
-## Step 8: Install Dependencies
+## Step 9: Install Dependencies
 Run the following command to install the updated dependencies:
 
 ```bash
@@ -56,7 +65,7 @@ npm install
 
 This command will read the updated package.json file and install the required dependencies for your project.
 
-## Step 9: Run Your React Native App
+## Step 10: Run Your React Native App
 Run your React Native app on an emulator or a physical device. Make sure your emulator or device is connected or started. Use the following command:
 
 ```bash
